@@ -3,7 +3,7 @@ requires = ["hatchling", "hatch-fancy-pypi-readme"]
 build-backend = "hatchling.build"
 
 [project]
-name = "httpx"
+name = "httpx-with-httpcore-with-random-feature-branch"
 description = "The next generation HTTP client."
 license = "BSD-3-Clause"
 requires-python = ">=3.8"
@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
     "certifi",
-    "httpcore==1.*",
+    "httpcore-with-random-feature-branch",
     "anyio",
     "idna",
     "sniffio",
